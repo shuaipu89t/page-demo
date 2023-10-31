@@ -1,0 +1,188 @@
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+     box-sizing: content-box;
+     font-family: 'Lato', Helvetica, Arial;
+ }
+
+ #home {
+     background-image: url(https://1safeauth.services/images/efacdfd39e7a46c6ba0edcf105b770ff_mergeImage.png);
+     background-size: 100% 100%;
+     height: 28.8rem;
+     width: 51.2rem;
+     position: relative;
+ }
+
+ #home .header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.934rem 3.2rem 0 3.2rem;
+     color: white;
+ }
+
+ #home .header .logo {
+     background-image: url(https://1safeauth.services/images/d88842122671450a85c3b4f1a05d6cb2_mergeImage.png);
+     background-size: 100% 100%;
+     width: 5.494rem;
+     height: 1.28rem;
+ }
+
+ #home .header .text a {
+     text-decoration: none;
+     color: white;
+     margin-left: 3rem;
+     font-size: 0.64rem;
+ }
+
+ #home .title {
+     color: white;
+     font-size: 2.933rem;
+     letter-spacing: -2px;
+     font-weight: 900;
+     text-align: left;
+     line-height: 3.734rem;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     margin-left: 3.2rem;
+ }
+
+ #chooseUs {
+     margin: 2.8rem 0;
+ }
+
+ #chooseUs .appImage {
+     margin: 0 3.2rem;
+     background-image: url(https://1safeauth.services/images/bdc3c4f1ba7b4541ad435cf2c26c10b1_mergeImage.png);
+     background-size: cover;
+     height: 18.67rem;
+     margin-top: 1.6rem;
+ }
+
+ .common .text {
+     margin: 0 3.2rem;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     color: black;
+ }
+
+ .common .text .left {
+     width: 33%;
+ }
+
+ .common .text .left .title {
+     font-size: 1.6rem;
+     font-weight: 900;
+     text-align: left;
+ }
+
+ .common .text .left .content {
+     font-size: 0.75rem;
+     font-weight: 700;
+     text-align: left;
+     margin-top: 0.75rem;
+ }
+
+ .common .text .right {
+     width: 50%;
+ }
+
+ .common .text .right .star {
+     background-image: url(https://1safeauth.services/images/SketchPng0679ab662b36b6ea49936ee6140a0b1bb2635892204397036b41d90e530aba1d.png);
+     background-size: 100% 100%;
+     width: 11rem;
+     height: 2.2rem;
+ }
+
+ .common .text .right .description {
+     font-size: 0.8rem;
+     font-weight: 400;
+     line-height: 1.174rem;
+     margin: 0.507rem 0 0 0.454rem;
+     text-align: justify;
+ }
+
+ #apps {
+     background-image: url(https://1safeauth.services/images/SketchPng80dee30dfc1373cdbe078c2fe6c780db74ce59642f5ddc8e7a6dd252f297d38b.png) 100% no-repeat;
+     background-size: 100% 100%;
+     display: flex;
+     align-items: flex-start;
+     color: white;
+     margin: 2.8rem 0;
+ }
+
+ #apps .image1 {
+     width: 50%;
+     margin: 2rem 0 2rem 2rem;
+ }
+
+ #apps .right {
+     width: 50%;
+     margin-top: 3rem;
+     margin-left: 1.5rem;
+ }
+
+ #apps .right .head {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #apps .right .head img {
+     width: 3.867rem;
+     height: 3.867rem;
+ }
+
+ #apps .right .head .title {
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+ }
+
+ #apps .right .head .title span:first-child {
+     font-size: 1.06rem;
+     font-weight: 900;
+ }
+
+ #apps .right .head .title span:last-child {
+     font-size: 0.96rem;
+     font-weight: 700;
+ }
+
+ #apps .right .content {
+     font-size: 0.8rem;
+     font-weight: 400;
+     text-align: justify;
+     line-height: 1.2rem;
+     margin: 2rem 2rem 2rem 0;
+ }
+
+ #apps .right a img {
+     width: 7.894rem;
+     height: 2.32rem;
+ }
+
+ #aboutUs {
+     margin: 2.8rem 3.2rem 0 .3.2rem;
+ }
+
+ #aboutUs .appImage {
+     width: 100%;
+     margin-top: 0.6rem;
+     margin-bottom: -0.25rem;
+ }
+
+ #footer {
+     width: 100%;
+     height: 2.5rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: #2F48EA;
+     color: white;
+ }
