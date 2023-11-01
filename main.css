@@ -96,12 +96,38 @@
     font-weight: 600;
     text-align: left;
     line-height: 1.867rem;
+    position: relative;
+    height: 1.5rem;
+ }
+
+ .session .title .text{
+    z-index: 2;
+    position: absolute;
+ }
+
+ .session .title .shadow{
+    width: 4.3rem;
+    height: 0.55rem;
+    transform: skew(355deg, 356deg);
+    position: absolute;
+    top: 1.3rem;
+    z-index: 1;
+ }
+
+ .session .title .shadow_h{
+    background-color: #FFDD5D;
+ }
+ .session .title .shadow_z{
+    background-color: #6D48FE;
+ }
+ .session .title .shadow_l{
+    background-color: #4F92FF;
  }
 
  .session .discript{
     font-size: 0.907rem;
     font-weight: 600;
-    line-height: 1.367rem;
+    /* line-height: 1.367rem; */
     margin-top: 0.774rem;
     text-align: justify;
  }
